@@ -1,0 +1,54 @@
+# Dependencies
+node_modules/
+**/node_modules/
+vendor/
+**/vendor/
+
+# Environment & Secrets
+!.env.example
+!**/.env.example
+
+# Composer
+composer.phar
+*.phar
+
+# Logs & Caches
+*.log
+**/*.log
+.phpunit.result.cache
+**/.phpunit.cache/
+
+# Databases
+*.sqlite
+*.sqlite-journal
+*.sqlite-shm
+*.sqlite-wal
+**/*.sqlite*
+
+# Flutter / Mobile build artifacts
+.dart_tool/
+**/.dart_tool/
+.flutter-plugins-dependencies
+**/.flutter-plugins-dependencies
+build/
+**/build/
+.pub-cache/
+**/.pub-cache/
+.pub/
+**/.pub/
+**/android/.gradle/
+**/android/.kotlin/
+**/android/local.properties
+**/ios/Pods/
+**/ios/.symlinks/
+
+# IDE & OS files
+.DS_Store
+Thumbs.db
+.idea/
+**/.idea/
+.agents/
+**/.agents/
+*.iml
+**/*.iml
+config.bat
